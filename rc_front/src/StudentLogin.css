@@ -1,0 +1,89 @@
+.student-login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    font-family: "Inter, sans-serif";
+    color: #000000;
+    background-color: #ffffff;
+    height: 100vh;
+    padding: 20px;
+}
+
+.login-illustration {
+    width: 276px;
+    height: 276px;
+    margin-bottom: 20px;
+}
+
+.login-title {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.login-title span {
+    color: blue;
+    font-weight: bold;
+}
+
+.login-form {
+    width: 50%;
+    background: #fff;
+    padding: 24px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    background-color: azure;
+}
+
+.input-field label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #000000;
+    /* background-color: #b3b3b3; */
+}
+
+.input-field input {
+    padding: 12px 16px;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #221919;
+    outline: none;
+    background-color: #e5e5ee;
+}
+
+.sign-in-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1912e0;
+    color: #f5f5f5;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 16px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+    
+}
+
+.forgot-password-link {
+    font-size: 16px;
+    color: #1e1e1e;
+    text-decoration: underline;
+    text-align: center;
+    display: block;
+}
+
+.label {
+    font-family: 'Montserrat', sans-serif;;
+}

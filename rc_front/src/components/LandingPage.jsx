@@ -1,10 +1,11 @@
-// import React from "react";
+// eslint-disable-next-line no-unused-vars
+import React from "react";
 
 function Landing() {
   return (
     <div style={styles.container}>
       <img
-        src="./assets/35020249-8262263-1.svg"
+        src=""
         alt="Illustration"
         style={styles.image}
       />
@@ -74,4 +75,3 @@ const styles = {
 };
 
 export default Landing;
-
