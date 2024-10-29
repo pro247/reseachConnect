@@ -19,9 +19,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
   const navigation = [
     { name: 'Home', href: '/', icon: Home },
-    { name: 'Learn', href: '/learn', icon: BookOpen },
+    // { name: 'Learn', href: '/learn', icon: BookOpen },
     { name: 'Mentorship', href: '/mentorship', icon: Users },
-    { name: 'Resources', href: '/resources', icon: Library },
+    { name: 'Resource Guidelines', href: '/resources', icon: Library },
     { name: 'Profile', href: '/profile', icon: User },
   ];
 

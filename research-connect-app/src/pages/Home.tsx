@@ -24,7 +24,7 @@ export function Home() {
             to="/learn"
             className="px-6 py-3 bg-white text-indigo-600 border border-indigo-600 rounded-lg hover:bg-indigo-50 transition"
           >
-            Explore Modules
+            Explore Resources
           </Link>
         </div>
       </div>
@@ -34,11 +34,11 @@ export function Home() {
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-3xl font-bold text-center mb-12">Why Choose ResearchConnect?</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <FeatureCard
+            {/* <FeatureCard
               icon={BookOpen}
               title="Structured Learning"
               description="Access curated learning modules tailored to your academic level"
-            />
+            /> */}
             <FeatureCard
               icon={Users}
               title="Expert Mentorship"
@@ -46,7 +46,7 @@ export function Home() {
             />
             <FeatureCard
               icon={Library}
-              title="Resource Hub"
+              title="Research Guidelines"
               description="Access a comprehensive library of research materials and guides"
             />
             <FeatureCard

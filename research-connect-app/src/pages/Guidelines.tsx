@@ -1,7 +1,7 @@
 import React from 'react';
 import { FileText, Download, ExternalLink, Search } from 'lucide-react';
 
-export function Resources() {
+export function Guidelines() {
   return (
     <div className="max-w-7xl mx-auto">
       <header className="mb-8">
