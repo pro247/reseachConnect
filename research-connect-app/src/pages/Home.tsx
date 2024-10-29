@@ -21,7 +21,7 @@ export function Home() {
             Get Started
           </Link>
           <Link
-            to="/learn"
+            to="/guidelines"
             className="px-6 py-3 bg-white text-indigo-600 border border-indigo-600 rounded-lg hover:bg-indigo-50 transition"
           >
             Explore Resources

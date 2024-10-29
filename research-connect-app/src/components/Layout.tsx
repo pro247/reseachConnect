@@ -21,7 +21,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
     { name: 'Home', href: '/', icon: Home },
     // { name: 'Learn', href: '/learn', icon: BookOpen },
     { name: 'Mentorship', href: '/mentorship', icon: Users },
-    { name: 'Resource Guidelines', href: '/resources', icon: Library },
+    { name: 'Research Guidelines', href: '/guidelines', icon: Library },
     { name: 'Profile', href: '/profile', icon: User },
   ];
 
